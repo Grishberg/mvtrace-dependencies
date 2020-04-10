@@ -1,4 +1,6 @@
 Forked AOSP libraries for access to mvtrace tools
+[![Download](https://jitpack.io/v/Grishberg/mvtrace-dependencies.svg) ](https://jitpack.io/#Grishberg/mvtrace-dependencies/1.0.0)
+
 
 #How to install:
 1) add to build.gradle
@@ -15,6 +17,6 @@ allprojects {
 
 ```
 dependencies {
-   implementation 'com.github.Grishberg:mvtrace-dependencies:Tag'
+   implementation 'com.github.Grishberg:mvtrace-dependencies:$verstion'
 }
 ```
