@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.github.grishberg.android.vmtrace'
-version '1.0.1'
+version '1.0.2'
 
 sourceCompatibility = 1.8
 
@@ -17,7 +17,7 @@ dependencies {
     implementation("com.google.guava:guava:27.0.1-jre")
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
 }
 
 compileKotlin {
@@ -30,7 +30,6 @@ compileTestKotlin {
 allprojects {
     repositories {
         google()
-        jcenter()
         maven { url "https://jitpack.io" }
     }
 }
