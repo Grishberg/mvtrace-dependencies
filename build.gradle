@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.github.grishberg.android.vmtrace'
-version '1.0.2'
+version '1.0.3'
 
 sourceCompatibility = 1.8
 
@@ -13,7 +13,7 @@ repositories {
 }
 
 dependencies {
-    implementation("androidx.annotation:annotation:1.0.2")
+    implementation("androidx.annotation:annotation:1.4.0")
     implementation("com.google.guava:guava:27.0.1-jre")
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
